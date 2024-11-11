@@ -12,7 +12,7 @@
 
 // LCD Pins
 LiquidCrystal lcd(14, 27, 26, 25, 17, 16); // RS, EN, D4, D5, D6, D7
-
+ 
 // WiFi and ThingSpeak credentials
 const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
