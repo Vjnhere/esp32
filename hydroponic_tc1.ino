@@ -16,7 +16,7 @@ const int oneWireBus = 35; // DS18B20 temperature sensor connected to GPIO 35
 OneWire oneWire(oneWireBus);
 
 // Pass our oneWire reference to Dallas Temperature sensor
-DallasTemperature sensors(&oneWire);
+DallasTemperature sensors(&oneWire); 
 
 // Timer variables for relay control
 unsigned long previousMillis = 0;
