@@ -20,7 +20,7 @@ Adafruit_BMP280 bmp;          // BMP280 Barometric Pressure Sensor
 #define MAX30100_ADDR 0x57
 #define BMP280_ADDR 0x76
 
-// ECG Sensor (AD8232) analog pin
+// ECG Sensor (AD8232) analog pin 
 const int ecgPin = 34;
 
 // Define analog pins for MQ6, MQ7 sensors
